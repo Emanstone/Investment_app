@@ -6,8 +6,10 @@ print('Welcome to Cohort 2 Investment Ltd')
 
 username = input('Enter your name: ')
 amount = input('Enter Investment Amount: ')
+initial_balance = 0
+print(int(initial_balance))
 
-user_amount = int(amount)
+user_amount = int(amount) + int(initial_balance)
 total = user_amount * 0.50 + user_amount
 commission = user_amount * 0.50
 print('Your commssion is', commission)
